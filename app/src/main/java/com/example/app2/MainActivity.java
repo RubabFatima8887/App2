@@ -60,10 +60,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Uri uri = Uri.parse("https://github.com/");
+                Uri link = Uri.parse("https://github.com/");
                 Intent int1;
 
-                int1 = new Intent(Intent.ACTION_VIEW, uri);
+                int1 = new Intent(Intent.ACTION_VIEW, link);
                 startActivity(int1);
                // Toast.makeText(context, "Going to Github", Toast.LENGTH_SHORT).show();
 
